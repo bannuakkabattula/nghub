@@ -13949,25 +13949,25 @@ Location:
   }
 }
 .case4-section-area .cs_case_study_thumb {
-  background-image: url(../img/all-images/case-img1.png);
+  background-image: url("../img/home/funding.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .case4-section-area .cs_case_study_thumb.cs_case_study_thumb2 {
-  background-image: url(../img/all-images/case-img2.png);
+background-image: url("../img/home/mentership.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .case4-section-area .cs_case_study_thumb.cs_case_study_thumb3 {
-  background-image: url(../img/all-images/case-img3.png);
+background-image: url("../img/home/team.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .case4-section-area .cs_case_study_thumb.cs_case_study_thumb4 {
-  background-image: url(../img/all-images/case-img4.png);
+  background-image: url("../img/home/developement.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
