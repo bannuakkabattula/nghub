@@ -4168,7 +4168,8 @@ Location:
 }
 
 .mobile-header.mobile-haeder4 {
-  background: var(--ztc-text-text-6);
+  /* background: var(--ztc-text-text-6); */
+  background: #2b2b2b;
   position: fixed;
 }
 .mobile-header.mobile-haeder4 .mobile-nav-icon {
@@ -4176,7 +4177,8 @@ Location:
 }
 
 .mobile-sidebar.mobile-sidebar4 {
-  background: var(--ztc-text-text-6);
+    background: #2b2b2b;
+  /* background: var(--ztc-text-text-6); */
   overflow-y: scroll;
 }
 .mobile-sidebar.mobile-sidebar4 .menu-close {
@@ -14461,3 +14463,14 @@ background-image: url("../img/home/team.png");
 }
 
 /*============= CASE STUDY CSS AREA ENDS ===============*//*# sourceMappingURL=main.css.map */
+
+@media screen and (max-width:768px) {
+  .mobileViewNone{
+    display: none;
+  }
+}
+@media screen and (min-width:769px) {
+  .desktopViewNone {
+    display: none;
+  }
+}
