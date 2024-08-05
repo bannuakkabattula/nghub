@@ -429,7 +429,7 @@ $('.foter-carousel').slick({
 $(window).on("load", function (event) {
   setTimeout(function () {
     $(".preloader").fadeToggle();
-  },100);
+  },200);
 
 //========== GSAP AREA ============= //
 
