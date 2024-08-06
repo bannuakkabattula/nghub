@@ -33,7 +33,7 @@
       <div class="loading-container">
         <div class="loading"></div>
         <div id="loading-icon">
-          <img src="assets/img/logo/NGHUB LOGO.svg" width="150" alt="" />
+          <img src="assets/img/logo/nghub.svg" width="150" alt="" />
         </div>
       </div>
     </div>
@@ -66,10 +66,7 @@
               <div class="header-elements">
                 <div class="site-logo">
                   <a href="index.html"
-                    ><img
-                      src="assets/img/logo/NGHUB LOGO.svg"
-                      width="100"
-                      alt=""
+                    ><img src="assets/img/logo/nghub.svg" width="100" alt=""
                   /></a>
                 </div>
                 <div class="main-menu">
@@ -99,7 +96,7 @@
           <div class="mobile-header-elements">
             <div class="mobile-logo">
               <a href="index.html"
-                ><img src="assets/img/logo/NGHUB LOGO.svg" width="120" alt=""
+                ><img src="assets/img/logo/nghub.svg" width="120" alt=""
               /></a>
             </div>
             <div class="mobile-nav-icon dots-menu">
@@ -113,7 +110,7 @@
     <div class="mobile-sidebar mobile-sidebar4">
       <div class="logosicon-area">
         <div class="logos">
-          <img src="assets/img/logo/NGHUB LOGO.svg" width="100" alt="" />
+          <img src="assets/img/logo/nghub.svg" width="100" alt="" />
         </div>
         <div class="menu-close">
           <i class="fa-solid fa-xmark"></i>
@@ -340,7 +337,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="footer-logo-area">
-              <img src="assets/img/logo/NGHUB LOGO.svg" width="120" alt="" />
+              <img src="assets/img/logo/nghub.svg" width="120" alt="" />
               <p>Fueling the Future of Entrepreneurship</p>
               <ul>
                 <li>
@@ -447,5 +444,42 @@
     <script src="assets/js/plugins/slick-slider.js"></script>
     <script src="assets/js/plugins/circle-progress.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      var url =
+        "https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?35620";
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = url;
+      var options = {
+        enabled: true,
+        chatButtonSetting: {
+          backgroundColor: "#28e98c",
+          ctaText: "",
+          borderRadius: "25",
+          marginLeft: "20",
+          marginBottom: "60",
+          marginRight: "20",
+          position: "right",
+        },
+        brandSetting: {
+          brandName: "Bannu akkabattula",
+          brandSubTitle: "UI/UX Developer ",
+          brandImg: "assets/images/fav.png",
+          welcomeText: "Hi there!\nHow can I help you?",
+          messageText: "Hello, I have a question about {{page_link}}",
+          backgroundColor: "#000",
+          ctaText: "Start Chat",
+          borderRadius: "25",
+          autoShow: false,
+          phoneNumber: "918790084698",
+        },
+      };
+      s.onload = function () {
+        CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName("script")[0];
+      x.parentNode.insertBefore(s, x);
+    </script>
   </body>
 </html>

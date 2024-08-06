@@ -419,17 +419,17 @@ img {
   --ztc-text-text-1: #fff;
   --ztc-text-text-2: #090B0E;
   --ztc-text-text-3: #3D4C5E;
-  --ztc-text-text-4: #4E2FDA;
+  --ztc-text-text-4: #FD6F2D;
   --ztc-text-text-5: #FB3189;
-  --ztc-text-text-6: #890aff;
+  --ztc-text-text-6: #FD6F2D;
   --ztc-text-text-7: #FFE7EE;
   --ztc-text-text-8: #F6F8F9;
   --ztc-text-text-9: #FEE0ED;
   --ztc-text-text-10: #F6F8F9;
-  --ztc-text-text-11: #ADFF1C;
+  --ztc-text-text-11: #FD6F2D;
   --ztc-text-text-12: #0A2828;
   --ztc-text-text-13: #2E00FF;
-  --ztc-bg-bg-1: #7224ba;
+  --ztc-bg-bg-1: #FD6F2D;
   --ztc-bg-bg-2: #EDE9F8;
   --ztc-bg-bg-3: #C8BFF4;
   --ztc-bg-bg-4: #EDEAFB;
@@ -1181,13 +1181,15 @@ Location:
   transition: all 0.4s;
   top: 0;
   z-index: -1;
-  background: var(--ztc-text-text-13);
+border: 2px solid #fd6f2d;
+  background: white;
+  color: #fd6f2d;
   border-radius: 30px;
   visibility: hidden;
   opacity: 0;
 }
 .header-btn1:hover {
-  color: var(--ztc-text-text-1);
+  color: #2f2f2f;
   transition: all 0.4s;
   transform: translateY(-5px);
 }
@@ -4169,11 +4171,11 @@ Location:
 
 .mobile-header.mobile-haeder4 {
   /* background: var(--ztc-text-text-6); */
-  background: #2b2b2b;
+  background: #ffffff;
   position: fixed;
 }
 .mobile-header.mobile-haeder4 .mobile-nav-icon {
-  color: var(--ztc-text-text-1);
+  color: #2f2f2f;
 }
 
 .mobile-sidebar.mobile-sidebar4 {
@@ -14468,9 +14470,26 @@ background-image: url("../img/home/team.png");
   .mobileViewNone{
     display: none;
   }
+    .header-btn1{
+    font-size: 14px;
+      background-color: #ffffff;
+      border-bottom: 2px solid black;
+      color: orange;
+      border-radius: 0;
+    }
 }
 @media screen and (min-width:769px) {
   .desktopViewNone {
     display: none;
   }
+}
+
+
+.wa-chat-box-brand-name {
+
+  color: #525252;
+}
+.wa-chat-box-brand-subtitle {
+
+  color: #525252;
 }
