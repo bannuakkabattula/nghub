@@ -14474,7 +14474,7 @@ background-image: url("../img/home/team.png");
     font-size: 14px;
       background-color: #ffffff;
       border-bottom: 2px solid black;
-      color: orange;
+      color: #fd6f2d;
       border-radius: 0;
     }
 }
@@ -14493,3 +14493,10 @@ background-image: url("../img/home/team.png");
 
   color: #525252;
 }
+.logos{
+   background-color: white;
+        width: fit-content;
+        padding: 16px;
+        border-radius: 2px;
+}
+       

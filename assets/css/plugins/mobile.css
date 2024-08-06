@@ -225,7 +225,7 @@ ul.mobile-nav-list {
 
 @media screen and (max-width:576px) {
     .mobile-logo a img{
-    width: 80px;
+    width: 100px;
 }
 }
 
