@@ -14487,11 +14487,15 @@ background-image: url("../img/home/team.png");
 
 .wa-chat-box-brand-name {
 
-  color: #525252;
+  color: #ffffff;
 }
 .wa-chat-box-brand-subtitle {
 
-  color: #525252;
+  color: #ffffff;
+}
+.wa-chat-box-brand {
+  background: white;
+  padding: 6px;
 }
 .logos{
    background-color: white;
