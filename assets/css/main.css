@@ -14493,10 +14493,15 @@ background-image: url("../img/home/team.png");
 
   color: #ffffff;
 }
+.wa-chat-box-header{
+background-color: #2f2f2f;
+}
+
 .wa-chat-box-brand {
   background: white;
   padding: 6px;
 }
+
 .logos{
    background-color: white;
         width: fit-content;
