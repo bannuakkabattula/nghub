@@ -14494,7 +14494,7 @@ background-image: url("../img/home/team.png");
   color: #ffffff;
 }
 .wa-chat-box-header{
-background-color: #2f2f2f;
+background-color: #2f2f2f !important;
 }
 
 .wa-chat-box-brand {
@@ -14509,3 +14509,9 @@ background-color: #2f2f2f;
         border-radius: 2px;
 }
        
+.vivanProjects{
+  font-weight: bold !important;
+}
+.vivanProjects:hover{
+  color: red !important;
+}
